@@ -13,6 +13,7 @@ header{
     width: 100%;
     height: 6vh;
     overflow: hidden;
+    position: fixed;
     
 }
 
@@ -33,6 +34,7 @@ h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding:  1vh;
     float: left;
+    letter-spacing: 0.1vh;
 }
 
 /*Search*/
@@ -140,9 +142,10 @@ a{
 
 .banner{
 
-    background: linear-gradient(to bottom,#fe87be88,rgba(142, 32, 253, 0.579)),url(img/banner.jpg);
+    background: linear-gradient(to bottom,#fe87be88,rgba(142, 32, 253, 0.789)),url(img/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 h2{
@@ -184,3 +187,54 @@ h3{
 .cover img:hover{
     transform: scale(1.1);
 }
+
+
+
+/* Footer */
+
+footer{
+    background-color: rgb(87, 38, 102);
+    margin-top: 20vh;
+}
+
+.footerName{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size:3.5vh;
+    text-align: center;
+    letter-spacing: 1vh;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    text-decoration:underline;
+    text-underline-offset: 2vh;
+    text-decoration-thickness: 0.25vh;
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1vh;
+    font-size: 1.5vh;
+    background-color:  rgb(61, 26, 66);
+}
+
+.footLink a{
+    text-decoration: none;
+    color: white;
+    display:inline-block;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: normal;
+    
+}
+
+.footLink a:hover{
+    color: #9223fc;
+}
+
+.footLink{
+    text-align:center;
+    padding-bottom: 2vh;
+    color: white;
+}
+
